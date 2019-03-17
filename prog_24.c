@@ -4,7 +4,7 @@
 #include<conio.h>
 void main()
 {
-    int n,i,flag=0;
+    int n,i,temp=0;
     printf("\n Enter a positive integer: ");
     scanf("%d",&n);
 
@@ -13,7 +13,7 @@ void main()
         // condition for nonprime number
         if(n%i == 0)
         {
-            flag = 1;
+            temp = 1;
             break;
         }
     }
@@ -21,7 +21,7 @@ void main()
       printf("1 is neither a prime nor a composite number. \n");
     else 
     {
-        if (flag == 0)
+        if (temp == 0)
           printf("%d is a prime number.\n",n);
         else
           printf("%d is not a prime number.\n",n);
