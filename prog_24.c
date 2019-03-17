@@ -11,20 +11,20 @@ void main()
     for(i=2;i<=n/2;i++)
     {
         // condition for nonprime number
-        if(n%i == 0)
+        if(n%i==0)
         {
-            temp = 1;
+            temp=1;
             break;
         }
     }
-    if (n == 1) 
-      printf("1 is neither a prime nor a composite number. \n");
+    if (n==1) 
+      printf("1 is neither a prime nor a composite number\n");
     else 
     {
-        if (temp == 0)
-          printf("%d is a prime number.\n",n);
+        if (temp==0)
+          printf("%d is a prime number\n",n);
         else
-          printf("%d is not a prime number.\n",n);
+          printf("%d is not a prime number\n",n);
     }    
     getch();
 }
