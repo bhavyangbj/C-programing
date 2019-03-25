@@ -6,6 +6,7 @@ void main()
 {
  int roll[20],i;
  float mark[20];
+ clrscr();
  
  for(i=1;i<=20;i++)
  {
