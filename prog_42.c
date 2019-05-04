@@ -1,7 +1,7 @@
 //Write a program that defines a function to add first n numbers.
 
 #include<stdio.h>
-int add_numer(int n,sum)
+int add_numer(int n,int sum)
 {
  sum=n*(n+1)/2;
  return sum;
