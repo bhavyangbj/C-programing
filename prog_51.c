@@ -7,7 +7,7 @@ struct time_struct
 {
     int member;
     int hour;
-    int minitue;
+    int minute;
     int second;
 };
 
@@ -22,13 +22,13 @@ void main()
         printf("\n Enter member1 no.: : ");
         scanf("%d",&p[i].member);
         printf(" Enter time: \n ");
-        scanf("%d %d %d",&p[i].hour,&p[i].minitue,&p[i].second);
+        scanf("%d %d %d",&p[i].hour,&p[i].minute,&p[i].second);
     }
 
     printf("\n Details::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::");
     printf("\n \t\tnumber\t\t time(hh:mm:ss)\n\n");
     for(i=0; i<n; i++)
     {
-        printf("\n\t\t%d\t\t%d : %d : %d",p[i].member,p[i].hour,p[i].minitue,p[i].second);
+        printf("\n\t\t%d\t\t%d : %d : %d",p[i].member,p[i].hour,p[i].minute,p[i].second);
     }
 }
