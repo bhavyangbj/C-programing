@@ -1,7 +1,7 @@
 //Design a structure student_record to contain name, branch and total marks obtained. Develop a program to read data for 10 students in a class and print them.
 
 #include<stdio.h>
-struct student
+struct student_record
 {
     char name[20];
     char branch[2];
@@ -11,7 +11,7 @@ struct student
 void main()
 {
     int i;
-    struct student s[10];
+    struct student_record s[10];
     printf("\n Enter details of 10 students:\n");
     for(i=0;i<10;i++)
     {
