@@ -23,9 +23,9 @@ void main()
         printf(" Obtained Mark : ");
         scanf("%f",&s[i].mark);
     }
-    printf("\n Student's Details:\n\n\tBranch \t\tStudent Name \t\tObtained Mark\n\n");
+    printf("\n Student's Details:\n\n\tBranch \tStudent Name \tObtained Mark\n\n");
     for(i=0;i<10;i++)
     {
-        printf("\n\t %s\t\t %s \t\t %3.2f",s[i].branch,s[i].name,s[i].mark);
+        printf("\n\t %-2s\t %-20s %3.2f",s[i].branch,s[i].name,s[i].mark);
     }
 }
